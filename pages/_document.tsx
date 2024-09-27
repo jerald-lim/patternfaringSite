@@ -7,6 +7,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <script src="https://cursor-party.jerald-lim.partykit.dev/cursors.js"></script>
       </body>
     </Html>
   )

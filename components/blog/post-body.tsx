@@ -9,6 +9,7 @@ const PostBody = ({ content }: Props) => {
     <div
       className={markdownStyles['markdown-body']}
       dangerouslySetInnerHTML={{ __html: content }}
+      data-highlights
     />
   )
 }
